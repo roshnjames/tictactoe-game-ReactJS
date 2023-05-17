@@ -1,0 +1,37 @@
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0px;
+  background-color: darkseagreen;
+  padding-left: 500px;
+
+}
+
+.square {
+  background: #ece562;
+  border: 5px solid #290505;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 84px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 84px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+  
+}
+
+.status {
+  margin-bottom: 10px;
+  color: 'red';
+  font-size: '25px';
+}
